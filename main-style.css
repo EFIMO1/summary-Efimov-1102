@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("/fonts/RobotoMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: "San Francisco Mono";
+    src: url("/fonts/SFMono-Regular.otf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    font-family: "Roboto";
+    background-color: rgba(240,142,203,1);
+}
+
+div {
+    font-family:"Monsterrat" ;
+    font-size: 1em;
+    border-radius: 24px;
+    height: 580px;
+    width: 530px;
+    margin-left: 5px; 
+    border: 2px rgba(137,251,252,1) solid;  
+    background-color: white;
+}
+
+div img { 
+    max-width: 118px;
+    max-height: 118px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:#3a48b4;
+}
+
+div:hover {
+    box-shadow: 0px -5px 10px 0px grey;
+}
+
+header {
+    font-size: 0.8em;
+    font-family: "Roboto";
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+h1,h2,h3 {
+    font-family: "Monsterrat";
+    text-align: left;
+    padding:6px 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+.Conteiner {
+    display: flex;
+    width: 1860px;
+    height: 1180px;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap:wrap;
+    column-count: 3;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.7em;
+    padding: 4px;
+}
+
+.footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.date {
+    text-align: right;
+}
